@@ -210,6 +210,18 @@ const ServicesShowcase = () => {
                     <p className="text-gray-600 text-lg leading-relaxed">
                       {service.description}
                     </p>
+                    <div className="grid grid-cols-2 gap-3 my-4">
+                      <img
+                        src="https://images.unsplash.com/photo-1581077968324-35e569d132b7?w=300&q=80"
+                        alt={`${service.title} sample 1`}
+                        className="rounded-lg shadow-md w-full h-32 object-cover"
+                      />
+                      <img
+                        src="https://images.unsplash.com/photo-1581078426770-6d336e5de7bf?w=300&q=80"
+                        alt={`${service.title} sample 2`}
+                        className="rounded-lg shadow-md w-full h-32 object-cover"
+                      />
+                    </div>
                     <ul className="space-y-3">
                       {[
                         "Superior color accuracy and consistency",
